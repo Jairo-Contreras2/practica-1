@@ -81,7 +81,7 @@ for numero1 in range(100,999):
                 max_Palindrome = producto
                 max_num1 = numero1
                 max_num2 = numero2
-print (max_Palindrome,max_num1,max_num2)
+print (max_Palindrome,"=",max_num1,"x",max_num2)
 
 #punto 6
 cedu = input("digite su numero de cedula : ")
