@@ -1,5 +1,15 @@
 #punto 1
-# no lo logre hacer
+numero = 1
+cantidad = 0
+suma = 0
+while numero != 0:
+    numero = int(input("ingrese los numeros: "))
+    if numero != 0:
+        suma = suma + numero
+        cantidad = cantidad + 1
+      
+print("usted ingreso " + str(cantidad) + " y la suma es = " + str(suma))
+
 
 #punto 2
 def menu():
