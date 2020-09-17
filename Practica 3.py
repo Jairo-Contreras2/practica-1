@@ -10,6 +10,7 @@ def potencia():
 
 potencia()
 
+
 #punto 2
 numero = int(input("igrese un numero del uno al diez : > "))
 
@@ -41,7 +42,8 @@ def escrito():
 
 escrito()
 
-#practica 3
+
+#punto 3
 x= int(input("ingrese un año: "))
 
 
@@ -54,6 +56,7 @@ def bisiesto(año):
 
 bisiesto(x)
 
+
 #punto 4
 n1 = input("Ingrese el primer numero: ")
 n1 = float(n1)
@@ -65,6 +68,7 @@ def igualdad():
 
 res = igualdad()
 print(res)
+
 
 #punto 5
 def isPalindrome(numero):
@@ -83,6 +87,7 @@ for numero1 in range(100,999):
                 max_num2 = numero2
 print (max_Palindrome,"=",max_num1,"x",max_num2)
 
+
 #punto 6
 cedu = input("digite su numero de cedula : ")
 
@@ -94,6 +99,7 @@ def validacion(cedula):
         print("cedula invalida")
 
 validacion(cedu)
+
 
 #punto 7
 print("ingrese numero al listado: ")
@@ -108,7 +114,8 @@ def duplicar(a,b,c):
 
 res = duplicar(x,y,z)
 print(res)
- 
+
+
 #punto 8
 n1 = int(input("igrese el primer numero : "))
 n2 = int(input("ingrese el numero final que sea mayor al primero : "))
